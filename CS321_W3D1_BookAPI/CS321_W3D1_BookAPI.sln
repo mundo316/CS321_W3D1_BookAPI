@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS321_W3D1_BookAPI", "CS321_W3D1_BookAPI\CS321_W3D1_BookAPI.csproj", "{E7F2DB8B-B60D-4EF4-81FD-2FC3F265DC76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7F2DB8B-B60D-4EF4-81FD-2FC3F265DC76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F2DB8B-B60D-4EF4-81FD-2FC3F265DC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F2DB8B-B60D-4EF4-81FD-2FC3F265DC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F2DB8B-B60D-4EF4-81FD-2FC3F265DC76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
