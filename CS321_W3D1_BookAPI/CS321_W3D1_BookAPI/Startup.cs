@@ -10,6 +10,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using CS321_W3D1_BookAPI.Data;
+using CS321_W3D1_BookAPI.Services;
+using CS321_W3D1_BookAPI.Models;
 
 namespace CS321_W3D1_BookAPI
 {
@@ -26,6 +29,8 @@ namespace CS321_W3D1_BookAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddDbContext<BookContext>();
+            services.AddScoped<IBookService, BookService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
